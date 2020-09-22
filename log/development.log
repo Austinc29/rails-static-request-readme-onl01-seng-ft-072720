@@ -830,3 +830,18 @@ Processing by StaticController#about as HTML
 Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 24.15.97.75 at 2020-09-22 00:13:16 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 15ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 24.15.97.75 at 2020-09-22 00:14:27 +0000
+Processing by StaticController#about as HTML
+  Rendering static/about.html.erb
+  Rendered static/about.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
